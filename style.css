@@ -6,7 +6,38 @@ body {
 #jsdom {
   padding: 50px 0;
 }
-#jsdom .message {
+#jsdom .chat {
   width: 500px;
-  height: 400px;
+  padding: 30px;
+  background-color: #dfe5fc;
+  border-radius: 20px;
+}
+#jsdom .chat .message {
+  background-color: #f9f9fa;
+  height: 300px;
+  padding: 5px;
+  border-radius: 20px;
+}
+#jsdom .chat .message .line {
+  background-color: #abb8f5;
+  margin: 5px;
+  max-width: 50%;
+  padding: 10px;
+}
+#jsdom .chat .text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px 0;
+}
+#jsdom .chat .text input {
+  border: 1px solid #000;
+  border-radius: 20px;
+  margin: 0 10px;
+}
+#jsdom .chat .text .sent {
+  background-color: #abb8f5;
+  padding: 5px 20px;
+  border-radius: 20px;
+  color: white;
 }/*# sourceMappingURL=style.css.map */
