@@ -40,4 +40,14 @@ body {
   padding: 5px 20px;
   border-radius: 20px;
   color: white;
+}
+
+.end {
+  display: flex;
+  align-items: flex-end;
+  justify-content: end;
+}
+
+.line {
+  border-radius: 30px;
 }/*# sourceMappingURL=style.css.map */
