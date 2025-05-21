@@ -44,7 +44,7 @@ $(document).ready(function () {
             }
         }
         $("#messageme").append(myel())
-        $("#messageyou").append(myel('class="start"'))
+        $("#messageyou").append(myel('class="end"'))
         $("#inputyou").val("")
         document.querySelector("#messageyou").scrollTo(0, document.querySelector("#messageme").scrollHeight)
         document.querySelector("#messageme").scrollTo(0, document.querySelector("#messageyou").scrollHeight)
