@@ -12,29 +12,15 @@ body {
   background-color: #dfe5fc;
   border-radius: 20px;
 }
-#jsdom .chat #messageyou {
+#jsdom .chat .message {
   background-color: #f9f9fa;
   height: 300px;
   padding: 5px;
   border-radius: 20px;
 }
-#jsdom .chat #messageyou .line {
+#jsdom .chat .message .line {
   text-align: center;
-  background-color: #abb8f5;
-  border-radius: 30px;
-  margin: 5px;
-  min-width: 50px;
-  max-width: 50%;
-  padding: 10px;
-}
-#jsdom .chat #messageme {
-  background-color: #f9f9fa;
-  height: 300px;
-  padding: 5px;
-  border-radius: 20px;
-}
-#jsdom .chat #messageme .line {
-  text-align: center;
+  display: inline-block;
   background-color: #abb8f5;
   border-radius: 30px;
   margin: 5px;
