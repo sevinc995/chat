@@ -45,8 +45,7 @@ body {
   border-radius: 20px;
   color: white;
 }
-
-#jsdom .end {
+#jsdom .chat .end {
   display: flex;
   align-items: flex-end;
   justify-content: end;
