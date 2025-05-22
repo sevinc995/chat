@@ -13,6 +13,7 @@ body {
   border-radius: 20px;
 }
 #jsdom .chat .message {
+  border-radius: 10px;
   background-color: #f9f9fa;
   height: 300px;
   padding: 5px;
@@ -49,4 +50,27 @@ body {
   display: flex;
   align-items: flex-end;
   justify-content: end;
+}
+@media (max-width: 992px) {
+  #jsdom .chat {
+    margin: 20px;
+  }
+}
+@media (max-width: 768px) {
+  #jsdom .chat {
+    width: 450px;
+  }
+}
+@media (max-width: 586px) {
+  #jsdom .chat {
+    width: 380px;
+  }
+}
+@media (max-width: 400px) {
+  #jsdom .chat {
+    width: 270px;
+  }
+  #jsdom .chat .text .sent {
+    padding: 5px 15px;
+  }
 }/*# sourceMappingURL=style.css.map */
