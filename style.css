@@ -19,6 +19,10 @@ body {
   padding: 5px;
   border-radius: 20px;
 }
+#jsdom .chat .message ::-webkit-scrollbar {
+  background-color: #9e9696;
+  width: 3px;
+}
 #jsdom .chat .message .line {
   text-align: center;
   display: inline-block;
