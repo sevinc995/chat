@@ -5,19 +5,23 @@
         padding: 30px
         background-color: #dfe5fc
         border-radius: 20px
+
         .message
             border-radius: 10px
             background-color: #f9f9fa
             height: 300px
             padding: 5px
-            border-radius: 20px 
-            ::-webkit-scrollbar
-            width: 5px
+            border-radius: 20px
+            // ::-webkit-scrollbar
+            // width: 5px
+            // ::-webkit-scrollbar-thumb
+            // background: #fff
             // ::-webkit-scrollbar-track
-            // background: #d6d0d0 
-            ::-webkit-scrollbar-thumb
-            background:#d1cccc
-
+            // background:#bbb5b5
+            .end
+                display: flex
+                align-items: flex-end
+                justify-content: end
             .line
                 text-align: center
                 // display: flex
@@ -36,19 +40,26 @@
             flex-direction: row
             justify-content: center
             margin: 20px 0
-            input
-                border: 1px solid #000
-                border-radius: 20px
-                margin: 0 10px
-            .sent
-                background-color: #abb8f5
-                padding: 5px 20px
-                border-radius: 20px
-                color: #ffff
-        .end
-            display: flex
-            align-items: flex-end
-            justify-content: end
+        .message
+            overflow: auto
+        .message::-webkit-scrollbar
+            width: 3px
+        .message::-webkit-scrollbar-track
+            background-color: #dfe5fc
+        .message::-webkit-scrollbar-thumb
+            background-color: #b9b7b7
+        // .message::-webkit-scrollbar hover
+        //     width: 10px
+
+        input
+            border: 1px solid #000
+            border-radius: 20px
+            margin: 0 10px
+        .sent
+            background-color: #abb8f5
+            padding: 5px 20px
+            border-radius: 20px
+            color: #ffff
 
     @media (max-width: 992px)
         .chat
